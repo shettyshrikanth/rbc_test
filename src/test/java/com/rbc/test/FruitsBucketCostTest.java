@@ -17,7 +17,7 @@ import com.rbc.fruits.Peache;
 public class FruitsBucketCostTest {
 
 	@Test
-	public void testFruitsBucketCostForSingleFruit() {
+	public void testGetBasketCostForSingleFruit() {
 		FruitsBasket basket = new FruitsBasket();
 		basket.add(new Orange());
 		
@@ -25,7 +25,7 @@ public class FruitsBucketCostTest {
 	}
 
 	@Test
-	public void testFruitsBucketCostForMultipleFruits() {
+	public void testGetBasketCostForMultipleFruits() {
 		FruitsBasket basket = new FruitsBasket();
 		basket.add(new Orange());
 		basket.add(new Orange());		
@@ -33,7 +33,7 @@ public class FruitsBucketCostTest {
 	}
 
 	@Test
-	public void testFruitsBucketCost() {
+	public void testGetBasketCost() {
 		FruitsBasket basket = new FruitsBasket();
 		basket.add(new Orange());
 		basket.add(new Orange());
