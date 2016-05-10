@@ -4,6 +4,6 @@ Main Class : com.rbc.bo.FruitsBasketCostCalculator.java (which accepts the fruit
 Test Class : com.rbc.test.FruitsBucketCostTest.java
 
 Steps to test the program:-
-1. Import project https://github.com/shettyshrikanth/rbc_test.git into Eclipse
-2. Compile the project (Using Project -> Build Project in the menu)
+1. Import project https://github.com/shettyshrikanth/rbc_test.git into Eclipse <br>
+2. Compile the project (Using Project -> Build Project in the menu) <br>
 3. Run com.rbc.test.FruitsBucketCostTest.java using JUnit (Using Run -> Run As -> JUnit Test in the menu) or Maven (Run As -> Maven test)
